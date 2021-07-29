@@ -88,7 +88,7 @@ function togglePortfolioPopup(){
 document.querySelector(".pp-close").addEventListener("click",togglePortfolioPopup);
 
 
-//hide popup when clicking outside of it
+/*------------hide popup when clicking outside of it--------*/
 
 document.addEventListener("click",(e)=>{
     if(e.target.classList.contains("pp-inner")){
@@ -107,4 +107,30 @@ function portfolioItemDetails(portfolioItem){
     portfolioItem.querySelector(".portfolio-item-details").innerHTML
 }
 
+/*--------Contact Form-------------------------------*/ 
 
+  // set up initial value for the form content
+
+let initSubject='',initBody='';
+ 
+
+function submitHandler(){
+    const name = nameText.value;
+    const to = "karencai.dev@gmail.com";
+    const email = emailText.value;
+    const subject = subText.value;
+
+    var body = ""+bodyText.value+'%0A%0A%0A';
+        body += "From："+nameText.value+'%0A';
+        body += "Email："+emailText.value+'%0A';
+
+
+    mailTo.href="mailto:"+to+"?subject="+subject+"&body="+body;
+    mailTo.click();
+}
+
+function init(){
+    subText.value=initSubject;
+    //nameText.value=initTo;
+    bodyText.value=initBody;
+}
