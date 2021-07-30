@@ -272,9 +272,9 @@ button{
 .ityped-cursor {
     font-size: 2.2rem;
     opacity: 1;
-    -webkit-animation: blink 0.5s infinite;
-    -moz-animation: blink 0.5s infinite;
-    animation: blink 0.5s infinite;
+    -webkit-animation: blink 0.3s infinite;
+    -moz-animation: blink 0.3s infinite;
+    animation: blink 0.3s infinite;
     animation-direction: alternate;
   }
 
@@ -777,6 +777,7 @@ Portfolio Section
 }
 .portfolio-item-thumbnail img{
     width: 100%;
+    height: 200px;
     border-radius: 10px;
 }
 .portfolio-item h3{
