@@ -142,3 +142,6 @@ ityped.init(document.querySelector("#ityped"), {
     showCursor: false,
     strings: ['Software Engineer 💻', 'Happy coder ⌨️', 'Cat Mum 😊']
   })
+
+ 
+    

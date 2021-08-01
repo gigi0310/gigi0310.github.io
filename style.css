@@ -96,6 +96,7 @@ img {
 ul {
     list-style: none;
 }
+
 section {
     background-color: var(--white-alpha-25);
     border: 1px solid var(--white-alpha-40);
@@ -131,6 +132,9 @@ section.fade-out{
     display: flex;
     flex-wrap: wrap;
 }
+
+
+
 
 .align-items-center {
     align-items: center;
@@ -649,7 +653,7 @@ Home Section
     background-color: var(--white-alpha-25);
     border: 1px solid var(--white-alpha-40);
     padding: 5px 15px;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     margin: 0 10px 10px 0;
     border-radius: 20px;
 }
@@ -865,6 +869,22 @@ Portfolio Section
 .pp-body .general-info li a{
     text-transform: lowercase;
     color: var(--main-color);
+}
+
+.karen {
+    text-indent: 2em;
+    padding-top: 4px;
+}
+
+.span1 {
+    color: rgb(245, 102, 36);
+}
+.span2 {
+    color: var(--main-color);
+}
+
+.span3{
+    color: rgb(74, 66, 156);
 }
 
 /* Contact Section */
