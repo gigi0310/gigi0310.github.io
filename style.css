@@ -772,7 +772,7 @@ Home Section
     border:1px solid var(--white-alpha-40);
     color: var(--main-color);
     border-radius: 50%;
-    margin: 0 4px 0 6px;
+    margin: 0 -9px 0 15px;
     
     transition: all 0.3s ease;
 }
