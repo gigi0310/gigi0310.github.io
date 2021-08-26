@@ -442,7 +442,7 @@ button{
     cursor:pointer;
     border-radius: 50%;
     border: none;
-    background-color: rgb(121, 132, 235); 
+    background-color: rgba(250, 250, 246, 0.3); 
     border: 1px solid var(--pink-light);
     display: flex;
     align-items: center;
@@ -452,20 +452,21 @@ button{
     transition: opacity 0.5s ease-in-out;
 }
 
-.header .nav-span {
-    color: white;
-    font-size: 20px;
-    align-items: center;
-    
+.header .nav-span  {
+    color: rgb(192, 139, 241);
+    font-size: 26px;
+    text-align: center;
 }
 
 
-/* .header .nav-toggler.hide{
+
+.header .nav-toggler.hide{
     opacity: 0;
     transition: none;
 }
+
 .header .nav-toggler span{
-    height: 24px;
+    height: 2px;
     width: 24px;
     background-color: var(--main-color);
     position: relative;
@@ -474,24 +475,14 @@ button{
 .header.active .nav-toggler span{
     background-color: transparent;
 }
-.header .nav-toggler span::before
-{
-    content: "_";
+.header .nav-toggler span::before,
+.header .nav-toggler span::after{
+    content: "";
     position: absolute;
     top: 0;
-    margin-top: 4px;
     width: 100%;
     height: 100%;
     background-color: var(--main-color);
-    transition: all 0.3s ease;
-}
-
-.header .nav-toggler span::after{
-    content: "_";
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
     transition: all 0.3s ease;
 }
 
@@ -501,10 +492,10 @@ button{
 }
 .header.active .nav-toggler span::before{
     transform: rotate(45deg);
-} 
+}
 .header .nav-toggler span::after {
     right:0;
-    transform: translateY(10px);
+    transform: translateY(8px);
 }
 .header.active .nav-toggler span::after{
     transform: rotate(-45deg);
@@ -513,7 +504,6 @@ button{
 .header:not(.active) .nav-toggler:hover span::after{
     width: 50%;
 }
- */
 
 
 .header .nav{
