@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.d2f20753.css",
-    "main.js": "/static/js/main.8512be50.js",
+    "main.js": "/static/js/main.9c819b7c.js",
     "static/media/img2.png": "/static/media/img2.9cc2d806e8d62c6ab44f.png",
-    "static/media/img1.png": "/static/media/img1.e99542762c8d3c87d201.png",
     "static/media/img3.png": "/static/media/img3.201828230ad1ae205d55.png",
-    "static/media/karen_cai_resume.pdf": "/static/media/karen_cai_resume.73646a56cceb240b862a.pdf",
+    "static/media/karen_cai_resume.pdf": "/static/media/karen_cai_resume.16a881163d2af8c87851.pdf",
+    "static/media/img1.png": "/static/media/img1.faf2eab72204ec6e1de5.png",
     "static/media/girl.jpeg": "/static/media/girl.611ccc5917f2e5fc14c2.jpeg",
     "static/media/school.svg": "/static/media/school.a41655f6d5350015803153c7410cef6a.svg",
     "static/media/work.svg": "/static/media/work.3710b62484ed638074240e99317c6c60.svg",
     "index.html": "/index.html",
     "main.d2f20753.css.map": "/static/css/main.d2f20753.css.map",
-    "main.8512be50.js.map": "/static/js/main.8512be50.js.map"
+    "main.9c819b7c.js.map": "/static/js/main.9c819b7c.js.map"
   },
   "entrypoints": [
     "static/css/main.d2f20753.css",
-    "static/js/main.8512be50.js"
+    "static/js/main.9c819b7c.js"
   ]
 }
